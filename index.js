@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     randomNumberArray = [];
     boxClickedArray = [];
     noOfRound = 0;
+    document.querySelector(`#roundNo`).innerText = `Round : ${noOfRound}`;
   };
 
   const startGame = () => {
